@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CA</title>
+  <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+  <div class="w-screen h-screen bg-violet-100 flex justify-around items-center">
+    <div class="flex flex-col gap-2">
+      <div class="font-bold text-2xl">
+        Güncel Hisse Senetlerini <br />Gösteren Uygulama
+      </div>
+      <p class="font-extralight text-xl">
+        Collect Api ile geliştirilmiş Hisse Senedi Fiyat Uygulaması <br>
+
+      </p>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <table class="min-w-full bg-white border border-gray-300 shadow-xl">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="py-2 px-4 border-b">Hisse İsmi</th>
+            <th class="py-2 px-4 border-b">Fiyatı</th>
+          </tr>
+        </thead>
+        <tbody id="table_body">
+
+
+        </tbody>
+      </table>
+
+
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
